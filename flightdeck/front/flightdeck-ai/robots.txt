@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /login
+Disallow: /assets/
+Disallow: /.well-known/
+# Legacy portal only. Current automation clients use well-known metadata.

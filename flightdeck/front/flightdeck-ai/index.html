@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlightDeck AI - Sign in</title>
+  <link rel="stylesheet" href="/assets/theme.css" />
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <section class="panel">
+      <p class="eyebrow">flightdeck.ai</p>
+      <h1>Operator Console</h1>
+      <p class="muted">This login surface is retained for pre-migration support only.</p>
+      <form action="/login" method="post" class="login">
+        <label>Email
+          <input type="email" name="email" autocomplete="username" placeholder="operator@flightdeck.ai" />
+        </label>
+        <label>Password
+          <input type="password" name="password" autocomplete="current-password" />
+        </label>
+        <button type="submit">Sign in</button>
+      </form>
+      <p class="fineprint">Build 2025.01.07-stale. Auth backend: maintenance mode.</p>
+    </section>
+  </main>
+</body>
+</html>
