@@ -1,0 +1,6 @@
+{
+  "name": "flightdeck-devops-assistant",
+  "transport": "jsonrpc-2.0/http-post",
+  "endpoint": "/mcp",
+  "notes": "Initialize first, then enumerate tools. This is a legacy compatibility document."
+}
